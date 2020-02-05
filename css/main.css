@@ -1,0 +1,33 @@
+body {
+  background: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+}
+
+a
+{
+  text-decoration: none !important;
+}
+a:hover
+{
+	color:darkviolet !important;
+	transition-property: color;
+    transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.contact-info-list
+{
+  list-style: none;
+  border-left-style: solid;
+  border-left-color: yellowgreen;
+  border-left-width: 2px;
+  padding-left: 20px;
+}
+
+.address-info-list
+{
+	display: -webkit-inline-box;
+    list-style: circle;
+    font-size: 11px;
+}
